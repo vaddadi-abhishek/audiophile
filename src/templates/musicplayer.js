@@ -25,7 +25,6 @@ function MusicPlayer() {
                         <li> <a href='#'> <BsFillPlayCircleFill/> </a> </li>
                         <li> <a href='#'> <BiSkipNext/> </a> </li>
                         <li> <a href='#'> <MdTune/> </a> </li>
-                        <li> <a href='#'> <MdTune/> </a> </li>
                     </ul>
                 </div>
             </div>
