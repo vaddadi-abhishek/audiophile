@@ -3,7 +3,7 @@ import './sidenav.css';
 
 function Sidenav() {
     return(
-        <div>
+        <div className='sidenav-container'>
             <div className="sideNav-1">
                 <ul className='nav-list'>
                     <li> <a href="#"><TbMusic /> SONGS </a> </li>

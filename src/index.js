@@ -11,8 +11,8 @@ import MusicPlayer from './templates/musicplayer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
     <Nav />
+    <Home />
     <Sidenav />
     <MusicPlayer />
   </React.StrictMode>

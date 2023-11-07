@@ -1,7 +1,63 @@
 .home {
     width: 100%;
     height: 100%;
+    top: 10%;
     position: absolute;
     z-index: -100;
     background-color: #2B2534;
+}
+
+.playlist-title {
+    margin-left: 20%;
+}
+
+.playlist-title:last-child {
+    margin-bottom: 8%;
+}
+
+.playlist-name {
+    text-transform: capitalize;
+    margin-left: 3%;
+    color: #fff;
+}
+
+.playlist {
+    display: flex;
+    justify-content: space-around;
+}
+
+.playlist-container {
+    position: relative;
+}
+
+.playlist-container img {
+    width: 170px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-content-bg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(63, 55, 75, 0.00) 58.85%, #000 100%);
+    cursor: pointer;
+}
+
+.img-content {
+    position: absolute;
+    bottom: 14px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.img-content .song-name {
+    color: #fff;
+}
+
+.img-content .artist-name {
+    color: gray;
 }
