@@ -21,6 +21,28 @@ function Home() {
               </div>
             </div>
 
+            {/* playlist container */}
+            <div className='playlist-container'>
+              <img src='https://i.ytimg.com/vi/8VEqzGViPrc/maxresdefault.jpg' alt='leo' />
+              <div className='img-content-bg'>
+              </div>
+              <div className='img-content'>
+                <span className='song-name'>Badass Ma</span>
+                <span className='artist-name'>Anirudh</span>
+              </div>
+            </div>
+
+            {/* playlist container */}
+            <div className='playlist-container'>
+              <img src='https://i.ytimg.com/vi/8VEqzGViPrc/maxresdefault.jpg' alt='leo' />
+              <div className='img-content-bg'>
+              </div>
+              <div className='img-content'>
+                <span className='song-name'>Badass Ma</span>
+                <span className='artist-name'>Anirudh</span>
+              </div>
+            </div>
+
           </div>
         </div>
 

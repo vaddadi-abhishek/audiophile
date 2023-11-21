@@ -17,17 +17,17 @@
 
 .playlist-name {
     text-transform: capitalize;
-    margin-left: 3%;
+    margin-left: 2%;
     color: #fff;
 }
 
 .playlist {
     display: flex;
-    justify-content: space-around;
 }
 
 .playlist-container {
     position: relative;
+    margin-left: 3%;
 }
 
 .playlist-container img {
